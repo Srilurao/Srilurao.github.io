@@ -138,6 +138,57 @@ section {
     margin-bottom: 15px;
 }
 
+/* Experience Section */
+#experience {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+#experience .experience-item {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#experience h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+#experience ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#experience ul li {
+    background-color: #ecf0f1;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 4px solid #1abc9c;
+}
+
+/* Certificates Section */
+#certificates {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+#certificates .certificate-item {
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#certificates h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+
 /* Contact Section */
 #contact a {
     color: #1abc9c;
