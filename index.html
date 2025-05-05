@@ -3,132 +3,363 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sri Laxmi Prasanna Portfolio</title>
+    <title>Sri Laxmi Prasanna Portfolio | iOS Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="container">
             <div class="logo">
                 <h1>Sri Laxmi Prasanna Joginipelli</h1>
-                <p>iOS Developer | Swift & SwiftUI Enthusiast</p>
+                <p>iOS Developer | Swift & SwiftUI Specialist</p>
             </div>
             <nav>
                 <ul>
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#certificates">Certificates</a></li>
                     <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
     </header>
 
     <section id="hero">
         <div class="container">
-            <h2>Welcome to My Portfolio</h2>
-            <p>Bringing ideas to life with code and design</p>
-            <a href="#about" class="btn">Learn More</a>
+            <div class="hero-content">
+                <h2>Creating Exceptional iOS Experiences</h2>
+                <p>Passionate iOS developer with expertise in Swift, SwiftUI, and building scalable mobile applications</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/developer-illustration.svg" alt="Developer Illustration">
+            </div>
         </div>
     </section>
 
     <section id="about">
         <div class="container">
-            <h2>About Me</h2>
-            <p>I’m an enthusiastic iOS developer with a strong background in Swift, SwiftUI, and cutting-edge technology. I specialize in creating seamless, user-friendly applications that prioritize performance and functionality. Currently pursuing my Master's in Computer Science, I’m always eager to innovate and solve complex problems.</p>
+            <div class="about-image">
+                <img src="images/profile-photo.jpeg" alt="Sri Laxmi Prasanna">
+            </div>
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>I'm a dedicated iOS Developer with a Master's in Computer Science, specializing in creating intuitive and high-performance mobile applications. With expertise in both Swift and Objective-C, I build applications that deliver seamless user experiences while maintaining robust architecture.</p>
+                <p>My approach combines technical excellence with creative problem-solving, ensuring apps are not only functional but also delightful to use. I'm passionate about staying current with the latest iOS technologies and best practices.</p>
+                <div class="about-details">
+                    <div>
+                        <h3>Education</h3>
+                        <p>Master's in Computer Science</p>
+                        <p>University of North Carolina - Charlotte</p>
+                    </div>
+                    <div>
+                        <h3>Certifications</h3>
+                        <p>The Complete iOS App Development Bootcamp</p>
+                        <p>Swift Masterclass</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="skills">
         <div class="container">
-            <h2>Skills</h2>
+            <h2>Technical Skills</h2>
             <div class="skills-grid">
-               <div class="skill-item">Swift</div>
-                <div class="skill-item">SwiftUI</div>
-                <div class="skill-item">Objective-C</div>
-                <div class="skill-item">UIKit</div>
-                <div class="skill-item">Core Data</div>
-                <div class="skill-item">REST APIs</div>
-                <div class="skill-item">AVFoundation</div>
-                <div class="skill-item">ARKit</div>
-                <div class="skill-item">Combine</div>
-                <div class="skill-item">MapKit</div>
-                <div class="skill-item">Java</div>
-                <div class="skill-item">Git</div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience">
-        <div class="container">
-            <h2>Experience</h2>
-            <div class="experience-item">
-                <h3>Trainee Software Engineer at Concentrix Catalyst</h3>
-                <p><strong>March 2022 – December 2023</strong></p>
-                <ul>
-                    <li>Led the end-to-end development of a healthcare app for clinicians using Swift and SwiftUI, improving digital healthcare services.</li>
-                    <li>Integrated Zoom SDK for video conferencing, enhancing clinician-to-patient and clinician-to-clinician interactions.</li>
-                    <li>Optimized app performance by reducing load times and improving stability, resulting in greater user engagement.</li>
-                    <li>Collaborated with cross-functional teams to develop new features, keeping the app responsive to dynamic needs.</li>
-                    <li>Utilized Core Data for efficient data management and persistence, ensuring smooth offline experiences for users.</li>
-                    <li>Worked with REST APIs to facilitate secure data exchange between the app and healthcare systems.</li>
-                    <li>Mentored junior developers on iOS best practices and actively participated in code reviews.</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Certificate Section -->
-    <section id="certificates">
-        <div class="container">
-            <h2>Certificates</h2>
-            <div class="certificate-item">
-                <h3>iOS & Swift – The Complete iOS App Development Bootcamp</h3>
-                <p>Certified by Udemy</p>
-            </div>
-            <div class="certificate-item">
-                <h3>Introduction to Artificial Intelligence</h3>
-                <p>Certified by IBM</p>
-            </div>
-            <div class="certificate-item">
-                <h3>Python Data Structures</h3>
-                <p>Certified by University of Michigan</p>
+                <div class="skill-category">
+                    <h3><i class="fas fa-mobile-alt"></i> iOS Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">Swift</div>
+                        <div class="skill-item">SwiftUI</div>
+                        <div class="skill-item">Objective-C</div>
+                        <div class="skill-item">UIKit</div>
+                        <div class="skill-item">Combine</div>
+                        <div class="skill-item">Core Data</div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-network-wired"></i> Backend & APIs</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">REST APIs</div>
+                        <div class="skill-item">GraphQL</div>
+                        <div class="skill-item">Firebase</div>
+                        <div class="skill-item">Alamofire</div>
+                        <div class="skill-item">URLSession</div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Technologies</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">Xcode</div>
+                        <div class="skill-item">Git/GitHub</div>
+                        <div class="skill-item">CocoaPods</div>
+                        <div class="skill-item">Swift Package Manager</div>
+                        <div class="skill-item">TestFlight</div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="projects">
         <div class="container">
-            <h2>Projects</h2>
+            <h2>Featured Projects</h2>
+            <div class="project-filters">
+
+            </div>
+            
             <div class="project-grid">
-                <div class="project-item">
-                    <h3>Brain Tumor Detection Using CNN</h3>
-                    <p>Designed and developed a robust CNN architecture using TensorFlow and Keras, achieving 97.5% accuracy in detecting brain tumors.</p>
+                <!-- iOS Projects from GitHub -->
+                <div class="project-item" data-category="swiftui">
+                    <div class="project-image">
+                        <img src="images/projects/budget-tracker.png" alt="Budget Tracker">
+                    </div>
+                    <div class="project-content">
+                        <h3>Budget Tracker</h3>
+                        <p>A personal finance app built with SwiftUI and Core Data that helps users track their expenses, set budgets, and view spending analytics.</p>
+                        <div class="project-tech">
+                            <span>SwiftUI</span>
+                            <span>Core Data</span>
+                            <span>Charts</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/SriLaxmiPrasannaJoginipelli/BudgetTracker" target="_blank"><i class="fab fa-github"></i> View Code</a>
+
+                        </div>
+                    </div>
                 </div>
-                <div class="project-item">
-                    <h3>Vehicle Classification Using YOLO Algorithm</h3>
-                    <p>Built a real-time system using YOLOv3 with OpenCV to classify vehicles into categories based on size and type for traffic monitoring systems.</p>
+                
+                <div class="project-item" data-category="uikit">
+                    <div class="project-image">
+                        <img src="images/projects/weather-app.png" alt="Weather App">
+                    </div>
+                    <div class="project-content">
+                        <h3>Weather Forecast</h3>
+                        <p>Real-time weather application using SwiftUI that fetches data from OpenWeather API with location services.</p>
+                        <div class="project-tech">
+                            <span>UIKit</span>
+                            <span>Core Location</span>
+                            <span>REST API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/SriLaxmiPrasannaJoginipelli/WeatherApp" target="_blank"><i class="fab fa-github"></i> View Code</a>
+                            
+                        </div>
+                    </div>
                 </div>
+                
+                <div class="project-item" data-category="swiftui">
+                    <div class="project-image">
+                      <img src="images/projects/tunesphere.png" alt="TuneSphere App">
+                    </div>
+                    <div class="project-content">
+                      <h3>TuneSphere</h3>
+                      <p>A music player app built with SwiftUI featuring audio streaming, playlists, and personalized recommendations using Core Data and AVFoundation.</p>
+                      <div class="project-tech">
+                        <span>SwiftUI</span>
+                        <span>AVFoundation</span>
+                        <span>Core Data</span>
+                      </div>
+                      <div class="project-links">
+                        <a href="https://github.com/SriLaxmiPrasannaJoginipelli/TuneSphere" target="_blank">
+                          <i class="fab fa-github"></i> View Code
+                        </a>
+                        
+                      </div>
+                    </div>
+                  </div>
+                
+                  <div class="project-item" data-category="swiftui">
+                    <div class="project-image">
+                      <img src="images/projects/hikeapp.png" alt="HikeApp UI Experiment">
+                    </div>
+                    <div class="project-content">
+                      <h3>HikeApp <span class="project-tag">UI Experiment</span></h3>
+                      <p>A SwiftUI exploration creating a visually stunning hiking app interface with:</p>
+                      <ul class="project-features">
+                        <li>Custom animated onboarding screens</li>
+                        <li>Neumorphic design elements</li>
+                        <li>Dynamic gradient transitions</li>
+                      </ul>
+                      <div class="project-tech">
+                        <span>SwiftUI</span>
+                        <span>Animations</span>
+                        <span>Custom UI</span>
+                      </div>
+                      <div class="project-links">
+                        <a href="https://github.com/SriLaxmiPrasannaJoginipelli/HikeApp" target="_blank">
+                          <i class="fab fa-github"></i> View Code
+                        </a>
+                        
+                      </div>
+                    </div>
+                  </div>
+                
+                  <div class="project-item" data-category="swiftui">
+                    <div class="project-image">
+                      <img src="images/projects/grocerylist.png" alt="GroceryList App">
+                    </div>
+                    <div class="project-content">
+                      <h3>GroceryList</h3>
+                      <p>A clean SwiftUI shopping list app featuring:</p>
+                      <ul class="project-features">
+                        <li>Intuitive item management (add/delete/reorder)</li>
+                        <li>Persistent storage using Core Data</li>
+                        <li>Modern swipe-to-delete interactions</li>
+                        <li>Category organization system</li>
+                      </ul>
+                      <div class="project-tech">
+                        <span>SwiftUI</span>
+                        <span>Core Data</span>
+                        <span>MVVM</span>
+                        <span>List Operations</span>
+                      </div>
+                      <div class="project-links">
+                        <a href="https://github.com/SriLaxmiPrasannaJoginipelli/GroceryList" target="_blank">
+                          <i class="fab fa-github"></i> View Code
+                        </a>
+                        
+                      </div>
+                    </div>
+                  </div>
+                
+                
             </div>
         </div>
     </section>
 
+    <section id="experience" class="dark-bg">
+        <div class="container">
+          <h2>Professional Journey</h2>
+          
+          <div class="timeline">
+            <!-- Concentrix Catalyst Experience -->
+            <div class="timeline-item featured">
+              <div class="timeline-date">Mar 2022 - Dec 2023</div>
+              <div class="timeline-content">
+                <div class="company-logo">
+                  <img src="images/projects/companies/concentrix.jpeg" alt="Concentrix Catalyst">
+                </div>
+                <h3>Trainee Software Engineer</h3>
+                <h4>Concentrix Catalyst</h4>
+                
+                <div class="achievement-grid">
+                  <div class="achievement-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h5>20% Engagement Boost</h5>
+                    <p>Optimized healthcare app performance leading to measurable user growth</p>
+                  </div>
+                  
+                  <div class="achievement-card">
+                    <i class="fas fa-video"></i>
+                    <h5>Zoom SDK Integration</h5>
+                    <p>Implemented secure video conferencing for clinician-patient interactions</p>
+                  </div>
+                  
+                  <div class="achievement-card">
+                    <i class="fas fa-bolt"></i>
+                    <h5>30% Performance Gain</h5>
+                    <p>Reduced load times through Core Data optimizations</p>
+                  </div>
+                </div>
+      
+                <button id="toggle-btn" class="btn btn-outline">View Detailed Responsibilities</button>
+                
+                <div class="detailed-responsibilities">
+                  <ul>
+                    <li>Led end-to-end development of healthcare app using Swift/SwiftUI</li>
+                    <li>Integrated REST APIs for real-time medical data synchronization</li>
+                    <li>Mentored junior developers in iOS best practices</li>
+                    <li>Implemented offline-capable features using Core Data</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+
     <section id="contact">
         <div class="container">
-            <h2>Contact</h2>
-            <p>If you'd like to get in touch, feel free to reach out via email or LinkedIn.</p>
-            <p>Email: <a href="mailto:srilurao99@gmail.com">srilurao99@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/sri-laxmi-prasanna-joginipelli-096812213/" target="_blank">Sri Laxmi Prasanna</a></p>
+            <h2>Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll get back to you as soon as possible!</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:srilurao99@gmail.com">srilurao99@gmail.com</a>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <a href="https://www.linkedin.com/in/sri-laxmi-prasanna-joginipelli-096812213/" target="_blank">LinkedIn Profile</a>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/SriLaxmiPrasannaJoginipelli" target="_blank">GitHub Profile</a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Sri Laxmi Prasanna Joginipelli</p>
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Sri Laxmi Prasanna Joginipelli</h3>
+                    <p>iOS Developer creating elegant solutions to complex problems through clean code and thoughtful design.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect</h3>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/sri-laxmi-prasanna-joginipelli-096812213/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/SriLaxmiPrasannaJoginipelli" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="mailto:srilurao99@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sri Laxmi Prasanna Joginipelli. All rights reserved.</p>
+            </div>
         </div>
     </footer>
 
