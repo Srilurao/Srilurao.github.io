@@ -32,6 +32,7 @@ Welcome to my developer portfolio! I’m an iOS Developer passionate about build
 
 ## 📫 Contact Me
 
+
 - 📧 Email: [srilurao99@gmail.com]
 - 💼 [LinkedIn](https://www.linkedin.com/in/sri-laxmi-prasanna-joginipelli-096812213/)
 - 🧑‍💻 [GitHub](https://github.com/SriLaxmiPrasannaJoginipelli)
