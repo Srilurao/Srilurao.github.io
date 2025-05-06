@@ -1,4 +1,3 @@
-// script.js
 document.addEventListener('DOMContentLoaded', function() {
     // Mobile menu toggle
     const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
@@ -89,4 +88,65 @@ document.addEventListener('DOMContentLoaded', function() {
             contactForm.reset();
         });
     }
+
+    // Toggle detailed responsibilities
+    const toggleBtn = document.getElementById('toggle-btn');
+    
+    if (toggleBtn) {
+        toggleBtn.addEventListener('click', function() {
+            const details = document.querySelector('.detailed-responsibilities');
+            details.classList.toggle('show');
+            
+            // Change button text based on state
+            if (details.classList.contains('show')) {
+                this.textContent = 'Hide Detailed Responsibilities';
+                this.classList.add('active');
+            } else {
+                this.textContent = 'View Detailed Responsibilities';
+                this.classList.remove('active');
+            }
+        });
+    }
+
+    // Animation on scroll
+    const animateOnScroll = function() {
+        const elements = document.querySelectorAll('.skill-category, .project-item, .timeline-item');
+        
+        elements.forEach(element => {
+            const elementPosition = element.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
+            
+            if (elementPosition < windowHeight - 100) {
+                element.classList.add('animate');
+            }
+        });
+    };
+    
+    // Initial check
+    animateOnScroll();
+    
+    // Check on scroll
+    window.addEventListener('scroll', animateOnScroll);
+
+    // Hero image animation
+    const heroImage = document.querySelector('.hero-image img');
+    if (heroImage) {
+        let isAnimating = false;
+        
+        window.addEventListener('scroll', function() {
+            if (!isAnimating) {
+                isAnimating = true;
+                
+                // Add bounce animation class
+                heroImage.classList.add('bounce');
+                
+                // Remove after animation completes
+                setTimeout(() => {
+                    heroImage.classList.remove('bounce');
+                    isAnimating = false;
+                }, 1000);
+            }
+        });
+    }
 });
+
